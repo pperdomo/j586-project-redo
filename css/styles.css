@@ -19,6 +19,7 @@
 .footer-box{
   background:#f7f7f7;
   min-height: 50px;
+  padding-top: 10px;
 }
 
 .content-box{
@@ -41,8 +42,20 @@
   margin-top: 20px;
   margin-right: 20px;
   margin-left: 20px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #eeeeee;
 
+}
+
+.announce-box{
+  border-right: 1px solid #eeeeee;
+}
+
+.col-sm-9.announce-two{
+  border-right: 1px solid #eeeeee;
+}
+
+.col-sm-4.content-left-sb{
+  border-right:  1px solid #eeeeee;
 }
 
 .second-row{
@@ -133,6 +146,11 @@
   padding-right: 3px;
 }
 
+
+.dash-img a:hover {
+background: green;
+}
+
 .a-graph{
   width: 100%;
 }
@@ -147,10 +165,12 @@
   padding: 35px;
   min-height: 140px;
   border-radius: 10px;
+
 }
 .col-md-12.big-blue-row{
   background-color: #2498f4;
   min-height: 220px;
+
 
 
 }
@@ -184,9 +204,53 @@
 
 .banner-two{
   padding-left: 140px;
-  padding-top: 15px;
+  padding-top: 10px;
 }
 
 .col-sm-12.tasks{
   min-height: 60px;
+}
+
+.banner-left{
+  float:left;
+  padding-top: 45px;
+}
+
+.banner-right{
+  margin-top: 0px;
+  padding-top: 0px:
+  float:right;
+
+}
+
+.col-sm-2.pies{
+  border-left: 1px solid #eeeeee;
+}
+
+.col-sm-12.sol-med{
+  padding-left: 150px;
+
+}
+
+.col-sm-12.rec{
+  border-bottom: 1px dotted #eeeeee;
+  margin: 10px;
+}
+
+.rec-img{
+  float: left;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.arthead{
+  font-size: .9em;
+}
+
+.rec-text{
+  font-size: 1em;
+}
+
+.c-an-c{
+  padding-left: 100px;
 }
