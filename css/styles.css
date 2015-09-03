@@ -18,21 +18,175 @@
 
 .footer-box{
   background:#f7f7f7;
+  min-height: 50px;
 }
 
 .content-box{
-  background: #f6f6f6;
+  background: linear-gradient(#f6f6f6, #ffffff);
   height:1140px;
-  border: 1px #eeeeee;
-  margin-top: 15px;
+  padding: 1px;
   border-radius: 10px;
+  margin-top: 15px;
+  margin-left: 0px;
+
+
 
 }
 
-.inside-box{
+
+.first-row{
   background: #ffffff;
+  height:50px;
+  padding-top: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-bottom: 1px solid black;
+
+}
+
+.second-row{
+  background: #ffffff;
+  height:65px;
+  margin-top: 0px;
+  margin-left:20px;
+  margin-bottom: 0px;
+  margin-right: 20px;
+  padding-top: 0px;
+}
+
+.third-row{
+  background: #ffffff;
+  padding-top: 20px;
+  margin-left:20px;
+  margin-bottom: 0px;
+  margin-right: 20px;
 }
 
 #dashtext{
   color: #ffffff;
+}
+
+#announce{
+  color: #fea46c;
+}
+
+#announce-ex{
+  color: #777777;
+}
+
+#tasks{
+  color: #2498f4;
+  float: left;
+}
+
+#analytics{
+    color: #2498f4;
+}
+
+.container{
+  padding: 0px;
+}
+
+.col-sm-2{
+  border: 1px #efefef;
+}
+
+.navbar-form.navbar-right{
+  float: right;
+}
+
+.foot-text{
+  color: #b0b0b0;
+}
+
+.dash-search-button{
+  float: right;
+}
+
+.tasks-circle{
+  float: left;
+  position: absolute;
+  z-index: 1;
+}
+
+.contax{
+  position: relative;
+  z-index: 2;
+  left: 8px;
+}
+
+.gear-right{
+  float: right;
+  padding-top: 25px;
+}
+
+.dash-img{
+  padding-top: 25px;
+  padding-left: 25px;
+
+}
+
+.mini-img{
+  padding-top: 10px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.a-graph{
+  width: 100%;
+}
+
+.pie-graph{
+  width: 100%;
+}
+
+.col-sm-12.blue-banner{
+  background-color: #2498f4;
+  margin: 15px;
+  padding: 35px;
+  min-height: 140px;
+  border-radius: 10px;
+}
+.col-md-12.big-blue-row{
+  background-color: #2498f4;
+  min-height: 220px;
+
+
+}
+
+.foot-em-txt{
+  color: #2498f4;
+  font-weight: bold;
+}
+
+.foot-detes-two{
+  float: right;
+  padding-top: 10px;
+}
+
+.foot-line{
+  height:100%;
+}
+
+.banner-one{
+  float: left;
+  margin-left: 0px;
+  padding-top:20px;
+}
+
+.banner-three{
+  float: right;
+  margin-right: 0px;
+  padding-right: 0px;
+  padding-top:20px;
+}
+
+.banner-two{
+  padding-left: 140px;
+  padding-top: 15px;
+}
+
+.col-sm-12.tasks{
+  min-height: 60px;
 }
